@@ -22,7 +22,7 @@ Working at height is one of the biggest cause of fatalities and major injuries. 
 So we have trained a machine learning model to detect if a person is working at a height in given image.
 
 ## Pipeline
-![Pipeline](https://github.com/ManavBansal/Vyntelligence/blob/master/src/readmeImages/pipe.png?raw=true)
+![Pipeline](https://github.com/VynOpenSource/HeightDetection/blob/main/src/readmeImages/pipe.png)
 
 ## Dataset 
 
@@ -56,8 +56,9 @@ Now you are able to run Github repo in Google Colab.
 
 ## Accuracy
 
-Two class Model-> Training Accuracy: 94% , Testing Accuracy: 91% (Height, Not Height)
-Three class Model-> Training Accuracy: 83% , Testing Accuracy: 72% (Height, Not Height, Hard)
+***Two class Model***-> Training Accuracy: **94%** , Testing Accuracy: **91%** (Height, Not Height)
+
+***Three class Model***-> Training Accuracy: **83%** , Testing Accuracy: **72%** (Height, Not Height, Hard)
 
 
 ## Output
