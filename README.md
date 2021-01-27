@@ -53,6 +53,10 @@ Right Click > Open With > Colaboratory
 
 Now you are able to run Github repo in Google Colab.
 
+
+## Output
+
+
 ## Dataset References
 
 - Unsplash
