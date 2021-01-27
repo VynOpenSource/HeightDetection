@@ -10,6 +10,7 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Execution](#execution-procedure)
+- [Accuracy] (#accuracy)
 - [Output](#output)
 - [Dataset References](#dataset-references)
 - [Creators](#creators)
@@ -52,6 +53,11 @@ Right Click > Open With > Colaboratory
 ##### Step6: Run
 
 Now you are able to run Github repo in Google Colab.
+
+## Accuracy
+
+Two class Model-> Training Accuracy: 94% , Testing Accuracy: 91% (Height, Not Height)
+Three class Model-> Training Accuracy: 83% , Testing Accuracy: 72% (Height, Not Height, Hard)
 
 
 ## Output
