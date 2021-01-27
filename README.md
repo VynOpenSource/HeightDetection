@@ -10,7 +10,7 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Execution](#execution-procedure)
-- [Accuracy] (#accuracy)
+- [Accuracy](#accuracy)
 - [Output](#output)
 - [Dataset References](#dataset-references)
 - [Creators](#creators)
