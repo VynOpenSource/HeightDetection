@@ -55,16 +55,24 @@ Now you are able to run Github repo in Google Colab.
 
 
 ## Output
-
-![Image1](https://github.com/VynOpenSource/HeightDetection/blob/main/src/outputImages/imagen1.jpg)
+<img src="https://github.com/VynOpenSource/HeightDetection/blob/main/src/outputImages/imagen1.jpg" width="400" height="250">
 
 Not height, Probability [8.759406e-11]
 
-![Image2](https://github.com/VynOpenSource/HeightDetection/blob/main/src/outputImages/imagen2.jpg)
 
-![Image3](https://github.com/VynOpenSource/HeightDetection/blob/main/src/outputImages/imagep1.jpg)
-![Image4](https://github.com/VynOpenSource/HeightDetection/blob/main/src/outputImages/imagep2.jpg)
+<img src="https://github.com/VynOpenSource/HeightDetection/blob/main/src/outputImages/imagen2.jpg" width="400" height="250">
 
+Not height, Probability [2.0659362e-20]
+
+
+<img src="https://github.com/VynOpenSource/HeightDetection/blob/main/src/outputImages/imagep1.jpg" width="400" height="250">
+
+Height, Probability [0.99990416]
+
+
+<img src="https://github.com/VynOpenSource/HeightDetection/blob/main/src/outputImages/imagep2.jpg" width="400" height="250">
+
+Height, Probability [0.99976885]
 
 
 ## Dataset References
