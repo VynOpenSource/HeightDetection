@@ -56,6 +56,8 @@ Now you are able to run Github repo in Google Colab.
 
 ## Output
 
+Not height, Probability [8.759406e-11]
+
 
 ## Dataset References
 
