@@ -36,7 +36,7 @@ Some of the links from which images have been downloaded, are listed in [Dataset
 
 ##### Step1: Clone this folder to you local PC.
 
-##### Step2: Open command prompt, run "pip install -r requirements"
+##### Step2: Open command prompt, run "pip install -r requirements.txt"
 
 ##### Step3: Now for to download already trained models. 
 
@@ -48,6 +48,14 @@ Some of the links from which images have been downloaded, are listed in [Dataset
 - Insert images in testingImages folder, which you want to test.
 - Then run "make test2" for 2 class model results.
 - Or run "make test3" for 3 class model results.
+
+##### Step5: To download dataset:
+
+Run "make getData"
+
+##### Step6: To train again, after downloading dataset:
+
+- Run "make train" and your new models will be saved in modelNew directory.
 
 ## Accuracy
 
