@@ -1,0 +1,15 @@
+tensorflow==2.2
+matplotlib
+opencv-python
+numpy
+pillow
+os-sys
+python-math
+h5py
+keras
+pydot
+ipython
+scipy
+requests
+zipfile36
+make
