@@ -55,7 +55,8 @@ Some of the links from which images have been downloaded, are listed in [Dataset
 
 ##### Step6: To train again, after downloading dataset:
 
-- Run "make train" and your new models will be saved in modelNew directory.
+- Run "make train2" and your new model2 will be saved in modelNew directory.
+- Run "make train3" and your neew model3 will be saved in modelNew directory.
 
 ## Accuracy
 
