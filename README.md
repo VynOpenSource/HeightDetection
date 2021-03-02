@@ -51,7 +51,7 @@ Some of the links from which images have been downloaded, are listed in [Dataset
 
 ##### Step5: To download dataset:
 
-Run "make getData"
+- Run "make getData"
 
 ##### Step6: To train again, after downloading dataset:
 
@@ -65,22 +65,22 @@ Run "make getData"
 
 
 ## Output
-<img src="https://github.com/VynOpenSource/HeightDetection/blob/main/src/outputImages/imagen1.jpg" width="400" height="250">
+<img src="https://github.com/VynOpenSource/HeightDetection/blob/main/testingImages/imagen1.jpg" width="400" height="250">
 
 Not height, Probability [8.759406e-11]
 
 
-<img src="https://github.com/VynOpenSource/HeightDetection/blob/main/src/outputImages/imagen2.jpg" width="400" height="250">
+<img src="https://github.com/VynOpenSource/HeightDetection/blob/main/testingImages/imagen2.jpg" width="400" height="250">
 
 Not height, Probability [2.0659362e-20]
 
 
-<img src="https://github.com/VynOpenSource/HeightDetection/blob/main/src/outputImages/imagep1.jpg" width="400" height="250">
+<img src="https://github.com/VynOpenSource/HeightDetection/blob/main/testingImages/imagep1.jpg" width="400" height="250">
 
 Height, Probability [0.99990416]
 
 
-<img src="https://github.com/VynOpenSource/HeightDetection/blob/main/src/outputImages/imagep2.jpg" width="400" height="250">
+<img src="https://github.com/VynOpenSource/HeightDetection/blob/main/testingImages/imagep2.jpg" width="400" height="250">
 
 Height, Probability [0.99976885]
 
