@@ -18,7 +18,9 @@ getModel2:
 	
 getModel3:
 	@python $(src)modelDown3.py
-	
-train:
-	@python $(src)2classmodel.py
 
+train2:
+	@python $(src)2classmodel.py
+	
+train3:
+	@python $(src)3classmodel.py
