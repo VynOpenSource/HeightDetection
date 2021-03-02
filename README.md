@@ -34,25 +34,20 @@ Some of the links from which images have been downloaded, are listed in [Dataset
 ## Steps to use project
 
 
-##### Step1: Get “Git” Link.
+##### Step1: Clone this folder to you local PC.
 
-Clone or download > Copy the link!
+##### Step2: Open command prompt, run "pip install -r requirements"
 
-##### Step2: Simply run below command.
+##### Step3: Now for to download already trained models. 
 
-"!git clone {link}"
+- Run "make getModel2" for 2 class model
+- Run "make getModel3" for 3 class model
 
-##### Step3: Open the Folder in Google Drive.
+##### Step4: To test these models:
 
-Folder has a same name as the Github repo :)
-
-##### Step5: Open The Notebook
-
-Right Click > Open With > Colaboratory
-
-##### Step6: Run
-
-Now you are able to run Github repo in Google Colab.
+- Insert images in testingImages folder, which you want to test.
+- Then run "make test2" for 2 class model results.
+- Or run "make test3" for 3 class model results.
 
 ## Accuracy
 
