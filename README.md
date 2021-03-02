@@ -51,7 +51,7 @@ Some of the links from which images have been downloaded, are listed in [Dataset
 
 ##### Step5: To download dataset:
 
-Run "make getData"
+- Run "make getData"
 
 ##### Step6: To train again, after downloading dataset:
 
