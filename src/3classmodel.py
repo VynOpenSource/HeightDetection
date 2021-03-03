@@ -122,8 +122,8 @@ model.compile(optimizer='RMSprop', loss=[focal_loss], metrics=['accuracy'])
 
 img_width, img_height = 400,400
 
-train_data_dir = './data/train'
-validation_data_dir = './data/cross_val'
+train_data_dir = './data/data3/train'
+validation_data_dir = './data/data3/cross_val'
 nb_train_samples = 1282
 nb_validation_samples = 503
 epochs = 12
@@ -147,7 +147,7 @@ train_datagen=ImageDataGenerator(
 #
 
 train_generator = train_datagen.flow_from_directory(
-    "./data/train",
+    "./data/data3/train",
     target_size=(img_width, img_height),
     batch_size=batch_size,
     interpolation="bicubic",
@@ -156,7 +156,7 @@ train_generator = train_datagen.flow_from_directory(
 #
 test_datagen = ImageDataGenerator(preprocessing_function=preprocess_input)
 valid_generator = test_datagen.flow_from_directory(
-    './data/cross_val',
+    './data/data3/cross_val',
     target_size=(img_width, img_height),
     interpolation="bicubic",
     batch_size=batch_size,
