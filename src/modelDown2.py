@@ -30,5 +30,5 @@ def save_response_content(response, destination):
                 f.write(chunk)
 
 print("Model2 starts downloading...")
-download_file_from_google_drive("1NjD6Mgtc8uI0mukexwt2J7uwWqNah823","./models/myModel_2class.h5")
+download_file_from_google_drive("1MOZcYKr5CIixlmNRhrjwvnnxibKAx44O","./models/myModel_2class.h5")
 print("Model2 successfully downloaded in 'models' folder!")
