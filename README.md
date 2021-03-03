@@ -35,13 +35,14 @@ Some of the links from which images have been downloaded, are listed in [Dataset
 
 
 ##### Step1: Clone this folder to you local PC.
+( If in windows, also install MingW for 'make' commands.
 
 ##### Step2: Open command prompt, run "pip install -r requirements.txt"
 
 ##### Step3: Now for to download already trained models. 
 
-- Run "make getModel2" for 2 class model
-- Run "make getModel3" for 3 class model
+- Run "make getModel2" for 2 class model in directory ./models.
+- Run "make getModel3" for 3 class model in directory ./models.
 
 ##### Step4: To test these models:
 
@@ -51,7 +52,8 @@ Some of the links from which images have been downloaded, are listed in [Dataset
 
 ##### Step5: To download dataset:
 
-- Run "make getData"
+- Run "make getData2" to get data for 2 class model in directory ./data/data2.
+- Run "make getData3" to get data for 3 class model in directory ./data/data3.
 
 ##### Step6: To train again, after downloading dataset:
 
