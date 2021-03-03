@@ -35,7 +35,7 @@ Some of the links from which images have been downloaded, are listed in [Dataset
 
 
 ##### Step1: Clone this folder to you local PC.
-( If in windows, also install MingW for 'make' commands.
+(If in windows, also install MingW for 'make' commands.)
 
 ##### Step2: Open command prompt, run "pip install -r requirements.txt"
 
