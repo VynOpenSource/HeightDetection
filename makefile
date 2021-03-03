@@ -9,9 +9,13 @@ test2:
 test3:
 	@python $(src)testing3.py
 
-getData:
-	@python $(src)dataDown.py
-	@python $(src)unzipData.py
+getData2:
+	@python $(src)dataDown2.py
+	@python $(src)unzipData2.py
+	
+getData3:
+	@python $(src)dataDown3.py
+	@python $(src)unzipData3.py
 
 getModel2:
 	@python $(src)modelDown2.py
