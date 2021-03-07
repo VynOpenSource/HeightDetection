@@ -19,7 +19,7 @@
 
 Working at height is one of the biggest cause of fatalities and major injuries. It includes falls from high raised platforms, ladders or through fragile surfaces.
 
-So we have trained a machine learning model to detect if a person is working at a height in given image.
+So we have trained a deep learning model to detect if a person is working at a height in given image. Technique used is fine tuning of Resnet50 architecture. Image Augmentation was used to increase Dataset. Frame work used is Tensorflow.
 
 ## Pipeline
 ![Pipeline](https://github.com/VynOpenSource/HeightDetection/blob/main/src/readmeImages/pipe.png)
@@ -87,7 +87,6 @@ Height, Probability [0.99990416]
 
 Height, Probability [0.99976885]
 
-
 ## Dataset References
 
 - Unsplash
@@ -97,3 +96,15 @@ Height, Probability [0.99976885]
 - Life of pix
 - Gratisography
 - StockSnap
+
+## Contributors
+This project was undertaken under the
+vyntelligence-IITD Joint Research program under the leadership of
+Professor Brejesh Lall (IITD) and Mohit Mehta, PhD (Data Science and Analytics
+| vyntelligence)
+
+### Code Contributors
+Sourav Kumar  
+Amenreet Singh Sodhi   
+Manav Bansal  
+
