@@ -13,7 +13,7 @@
 - [Results](#results)
 - [Output](#output)
 - [Dataset References](#dataset-references)
-- [Creators](#creators)
+- [Contributors](#contributors)
 
 ## Introduction
 
