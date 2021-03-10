@@ -88,7 +88,7 @@ Height, Probability [0.99990416]
 Height, Probability [0.99976885]
 
 ## Dataset References
-
+All source images were picked from sources where the license allowed permissible use for commercial purposes. Some of the sources used were the following: 
 - Unsplash
 - Pixabay
 - Free Nature Stock
@@ -99,12 +99,10 @@ Height, Probability [0.99976885]
 
 ## Contributors
 This project was undertaken under the
-vyntelligence-IITD Joint Research program under the leadership of
-Professor Brejesh Lall (IITD) and Mohit Mehta, PhD (Data Science and Analytics
-| vyntelligence)
+under the leadership of Professor Brejesh (IITD) and the Data Science team at vyntelligence.
 
 ### Code Contributors
-Sourav Kumar  
+Sourav Kumar (@souravk1113)  
 Amenreet Singh Sodhi   
 Manav Bansal  
 
