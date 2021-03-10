@@ -103,6 +103,6 @@ under the leadership of Professor Brejesh (IITD) and the Data Science team at vy
 
 ### Code Contributors
 [Sourav Kumar](https://github.com/souravk1113)   
-Amenreet Singh Sodhi(https://github.com/scaryGangsta)   
+[Amenreet Singh Sodhi](https://github.com/scaryGangsta)   
 [Manav Bansal](https://github.com/ManavBansal)  
 
