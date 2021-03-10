@@ -11,13 +11,12 @@ from keras.preprocessing import image
 from keras.utils import layer_utils
 from keras.utils.data_utils import get_file
 from keras.applications.imagenet_utils import preprocess_input
-import pydot
-from IPython.display import SVG
-from keras.utils.vis_utils import model_to_dot
+
+
 from keras.utils import plot_model
 from keras.regularizers import l2
 from keras.initializers import glorot_uniform
-import scipy.misc
+
 from matplotlib.pyplot import imshow
 # %matplotlib inline
 from tensorflow.keras.applications import ResNet50
@@ -42,12 +41,12 @@ K.clear_session()
 # zip_ref.extractall("/content/cross_val")
 # zip_ref.close()
 
-#from keras.applications.vgg16 import VGG16
+#Initializig base model resnet 50 with imagenet weights
 base_model=ResNet50(include_top = False, pooling = "avg")
 from keras.applications.resnet import preprocess_input
 model = Sequential()
 model.add(base_model)
-
+#adding connected layers at resnet head for fine tuning
 model.add(layers.Flatten())
 model.add(layers.Dropout(0.5))
 model.add(layers.Dense(32, activation='relu',))
@@ -55,14 +54,14 @@ model.add(layers.Dropout(0.5))
 model.add(layers.Dense(1, activation='sigmoid'))
 #model.layers[0].trainable = False
 
-
+#freezing the resnet and only training the added layers
 for layer in base_model.layers:
    layer.trainable = False
 
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
 
-
+#setting up data loading and augmentation pipeines
 img_width, img_height = 400,400
 
 train_data_dir = './data/data2/train'
@@ -112,12 +111,13 @@ history=model.fit_generator(generator=train_generator,
                     epochs=20
 )
 
-model.save_weights("./modelNew/mymodelweights_2class.h5")
+#model.save_weights("./modelNew/mymodelweights_2class.h5")
 #!mv "/content/my_weights_resnet50.h5" "/content/drive/My Drive/open_src_data/cross_valid/my_weights_resnet50.h5"
 
-model.save("./modelNew/mymodel_2class.h5")
+#model.save("./modelNew/mymodel_2class.h5")
 #!mv "/content/mymodel3_r.h5" "/content/drive/My Drive/open_src_data/cross_valid/mymodel3_r.h5"
 
+#unfreezing last few alyers of resent  
 for layer in base_model.layers[:165]:
   layer.trainable = False
 for layer in base_model.layers[165:]:
@@ -131,7 +131,7 @@ history=model.fit_generator(generator=train_generator,
                     validation_steps=STEP_SIZE_VALID,
                     epochs=13
 )
-
+#save model and weights
 model.save_weights("./modelNew/mymodelweights_2class.h5")
 #!mv "/content/my_weights_resnet50_f.h5" "/content/drive/My Drive/open_src_data/cross_valid/my_weights_resnet50_f.h5"
 
@@ -140,6 +140,7 @@ model.save("./modelNew/mymodel_2class.h5")
 
 print(history.history.keys())
 
+#plot stats
 acc = history.history['accuracy']
 val_acc = history.history['val_accuracy']
 loss = history.history['loss']
