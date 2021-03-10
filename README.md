@@ -1,4 +1,4 @@
-# AI_HeightDetection
+# ai-height-detection
 
 ## Table of contents
 
@@ -10,7 +10,7 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Execution](#execution-procedure)
-- [Accuracy](#accuracy)
+- [Results](#results)
 - [Output](#output)
 - [Dataset References](#dataset-references)
 - [Creators](#creators)
@@ -60,7 +60,7 @@ Some of the links from which images have been downloaded, are listed in [Dataset
 - Run "make train2" and your new model2 will be saved in modelNew directory.
 - Run "make train3" and your neew model3 will be saved in modelNew directory.
 
-## Accuracy
+## Results
 
 ***Two class Model***-> Training Accuracy: **94%** , Testing Accuracy: **91%** (Height, Not Height)
 
@@ -102,7 +102,7 @@ This project was undertaken under the
 under the leadership of Professor Brejesh (IITD) and the Data Science team at vyntelligence.
 
 ### Code Contributors
-Sourav Kumar   
-Amenreet Singh Sodhi   
-Manav Bansal  
+[Sourav Kumar](https://github.com/souravk1113)   
+Amenreet Singh Sodhi(https://github.com/scaryGangsta)   
+[Manav Bansal](https://github.com/ManavBansal)  
 
