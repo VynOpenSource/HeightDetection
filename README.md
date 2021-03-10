@@ -102,7 +102,7 @@ This project was undertaken under the
 under the leadership of Professor Brejesh (IITD) and the Data Science team at vyntelligence.
 
 ### Code Contributors
-Sourav Kumar (@souravk1113)  
+Sourav Kumar   
 Amenreet Singh Sodhi   
 Manav Bansal  
 
