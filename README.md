@@ -4,12 +4,8 @@
 
 - [Introduction](#introduction)
 - [Pipeline](#pipeline)
-- [Folder Structure](#folder-structure-and-details)
 - [Dataset](#dataset)
 - [Steps to use project](#steps-to-use-project)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Execution](#execution-procedure)
 - [Results](#results)
 - [Output](#output)
 - [Dataset References](#dataset-references)
