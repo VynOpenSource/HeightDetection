@@ -23,7 +23,7 @@ So we have trained a deep learning model to detect if a person is working at a h
 ## Dataset 
 
 Dataset includes thousands of positive, negative and hard examples for the person working at height, collected from open sources.
-This dataset is saved in drive, can be accessed from [here](https://drive.google.com/drive/folders/1_pDFkAN7P4u_QcJ4hScMMtl6UVNoMzEi?usp=sharing).
+This dataset is saved in drive, can be accessed from here: [positive](https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/data3/pos2.zip), [negative](https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/data3/neg2.zip), [hard](https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/data3/train_hard.zip).
 
 Some of the links from which images have been downloaded, are listed in [Dataset References](#dataset-references).
 
