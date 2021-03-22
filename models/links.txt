@@ -1,5 +1,5 @@
-Link to model2:
-https://drive.google.com/file/d/1MOZcYKr5CIixlmNRhrjwvnnxibKAx44O/view?usp=sharing
-
 Link to model3:
-https://drive.google.com/file/d/166hZ-L9u0WIJ20i90oDJXQwCUA9Fycft/view?usp=sharing
+https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/models/mymodel_3class.h5
+
+Link to model2:
+https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/models/mymodel_2class.h5

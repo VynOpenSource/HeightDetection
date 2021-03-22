@@ -1,2 +1,9 @@
-Dataset link from drive:
-https://drive.google.com/drive/u/2/folders/1_pDFkAN7P4u_QcJ4hScMMtl6UVNoMzEi 
+Dataset3 links from drive:
+https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/data3/neg2.zip
+https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/data3/pos2.zip
+https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/data3/train_hard.zip
+
+Dataset3 cross-validations:
+https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/cross-validation/cross_valid_negative.zip
+https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/cross-validation/cross_valid_positive.zip
+https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/cross-validation/cross_valid_hard.zip
