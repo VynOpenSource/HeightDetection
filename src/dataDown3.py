@@ -7,11 +7,11 @@ def download_url(url, save_path, chunk_size=32768):
             fd.write(chunk)
 
 print("Positive Data downloading...")
-download_url("https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/data3/pos2.zip","./data/data3/positive.zip")
+download_url("https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/training-data/train_positive.zip","./data/data3/positive.zip")
 print("Negative Data downloading...")
-download_url("https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/data3/neg2.zip","./data/data3/negative.zip")
+download_url("https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/training-data/train_negative.zip","./data/data3/negative.zip")
 print("Hard Data downloading...")
-download_url("https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/data3/train_hard.zip","./data/data3/hard.zip")
+download_url("https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/training-data/train_hard.zip","./data/data3/hard.zip")
 print("Done!")
 
 print("Positive Cross Data downloading...")

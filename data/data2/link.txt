@@ -1,6 +1,6 @@
 Dataset2 links from drive:
-https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/data3/neg2.zip
-https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/data3/pos2.zip
+https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/training-data/train_negative.zip
+https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/training-data/train_positive.zip
 
 Dataset2 cross-validations:
 https://vyn-opensource-ai-datasets.s3-eu-west-1.amazonaws.com/ai-height-detection/cross-validation/cross_valid_negative.zip
