@@ -1,3 +1,5 @@
+# import warnings
+# warnings.filterwarnings("ignore")
 import os
 from tensorflow.keras import preprocessing
 from tensorflow.keras import backend as K
@@ -6,6 +8,7 @@ import cv2
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import numpy as np
+# import cv2_imshow
 from PIL import Image
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.preprocessing.image import load_img
@@ -20,6 +23,7 @@ def focal_loss(y_true, y_pred):
 
 model=models.load_model("./models/mymodel_3class.h5",custom_objects={'focal_loss':focal_loss})
 print("Model3 Loaded !!\n")
+# # download_file_from_google_drive(id,"\imageTest.jpg")
 
 dir = "testingImages"
 

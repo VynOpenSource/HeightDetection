@@ -1,5 +1,3 @@
-# import warnings
-# warnings.filterwarnings("ignore")
 import os
 from tensorflow.keras import preprocessing
 from tensorflow.keras import backend as K
@@ -8,16 +6,13 @@ import cv2
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import numpy as np
-# import cv2_imshow
 from PIL import Image
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.applications import imagenet_utils
 
-
 model=models.load_model("./models/mymodel_2class.h5")
 print("Model Loaded !!\n")
-# # download_file_from_google_drive(id,"\imageTest.jpg")
 
 dir = "testingImages"
 
