@@ -1,21 +1,15 @@
-import numpy as np
 import tensorflow as tf
-import math
 import h5py
+import numpy
 import matplotlib.pyplot as plt
 from keras import layers
-from keras.layers import Input, Add, Dense, Activation, ZeroPadding2D, BatchNormalization, Flatten, Conv2D, AveragePooling2D, MaxPooling2D, GlobalMaxPooling2D
 from keras.models import Model, load_model
-from keras.preprocessing import image
-from keras.utils import layer_utils
-from keras.utils.data_utils import get_file
 from keras.applications.imagenet_utils import preprocess_input
-from keras.utils import plot_model
-from matplotlib.pyplot import imshow
 from tensorflow.keras.applications import ResNet50
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from keras.callbacks import ModelCheckpoint
 import keras.backend as K
 K.set_image_data_format('channels_last')
 K.set_learning_phase(1)
@@ -74,12 +68,12 @@ for layer in base_model.layers[165:]:
   layer.trainable= True
 
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+filepath = './modelNew/mymodel_2class.h5'
+checkpoint = ModelCheckpoint(filepath=filepath, monitor="val_loss",verbose=1,save_best_only=True,save_weights_only=False,mode="auto",save_freq="epoch")
+callbacks = [checkpoint]
+history=model.fit_generator(generator=train_generator,steps_per_epoch=STEP_SIZE_TRAIN,validation_data=valid_generator,validation_steps=STEP_SIZE_VALID,epochs=20,callbacks=callbacks)
 
-history=model.fit_generator(generator=train_generator,steps_per_epoch=STEP_SIZE_TRAIN,validation_data=valid_generator,validation_steps=STEP_SIZE_VALID,epochs=13)
 
-#save model and weights
-model.save_weights("./modelNew/mymodelweights_2class.h5")
-model.save("./modelNew/mymodel_2class.h5")
 
 #plot stats
 acc = history.history['accuracy']
